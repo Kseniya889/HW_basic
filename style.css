@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'CeraProBold'; /* 700 */
+    font-family: "CeraProBold"; /* 700 */
     src: url('.//fonts/CeraPro-Bold.woff2') format('woff2'),
         url('.//fonts/CeraPro-Bold.eot') format('eot'),
         url('.//fonts/CeraPro-Bold.ttf') format('truetype'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: 'CeraProRegular'; /* 400 */
+    font-family: "CeraProRegular"; /* 400 */
     src: url('.//fonts/CeraPro-Regular.woff2') format('woff2'),
         url('.//fonts/CeraPro-Regular.eot') format('eot'),
         url('.//fonts/CeraPro-Regular.ttf') format('truetype'),
@@ -23,65 +23,194 @@
 }
 
 @font-face {
-    font-family: 'CeraProLight'; /* 250 */
+    font-family: "CeraProLight"; /* 250 */
     src: url('.//fonts/CeraPro-Light.woff2') format('woff2'),
         url('.//fonts/CeraPro-Light.eot') format('eot'),
         url('.//fonts/CeraPro-Light.ttf') format('truetype'),
         url('.//fonts/CeraPro-Light.woff') format('woff')
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  /* border: none; */
+  box-sizing: border-box;
+  /* font-style: normal; */
+  /* font-size: 16px; */
+}
 
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
 
-.login {
-    font-family: 'CeraProRegular', sans-serif;
-    color: #3D3D3D;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
+.form{
+  padding: 13px;
+}
+
+.greenString{
+  background: #46A358;
+  height: 10px;
+}
+
+.close{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 21px;
+}
+
+.formContent{
+  display: flex;
+  flex-direction: column;
+  padding: 0 87px;
+}
+
+.mainText{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.login{
+  color: #3D3D3D;
+  font-family: "CeraProMedium", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.separator{
+  color: #3D3D3D;
+  font-family: 'CeraProLight', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: 16px; /* 88.889% */
 }
 
 .register{
-color: #46A358;
-font-family: 'CeraProMedium', sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
+  color: #46A358;
+  font-family: 'CeraProMedium', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 80% */
 }
 
-.sign {
-color: #3D3D3D;
-font-family: "CeraProLight", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 250;
-line-height: 16px;
+.addText{
+  color: #3D3D3D;
+  font-family: "CeraProRegular", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
 }
 
-.form-text{
-color: #3D3D3D;
-font-family: 'CeraProRegular', sans-serif;
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
+.formInputs{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-input{
-color: #A5A5A5;
-font-family: 'CeraProRegular', sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 16px;
+.formInput{
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  font-family: "CeraProRegular", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 12px 14px;
 }
 
-.btn-register{
-color: #FFF;
-font-family: 'CeraProBold', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 16px;
+.formInput::placeholder{
+  color: #A5A5A5;
+}
+
+div.formInput{
+  display: flex;
+  padding: 0;
+}
+
+div.formInput > input.formInput{
+  border: 0;
+  flex-grow: 1;
+  padding-right: 0;
+}
+
+.btnHide{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 13px;
+}
+
+.formBtn{
+  border-radius: 5px;
+  background: #46A358;
+  color: #FFF;
+  font-family: "CeraProBold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  padding: 16px 118px;
+  border: none;
+  margin: 25px 0 36px;
+}
+
+.footerText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.divider{
+  min-width: 100%;
+  border-top: 1px solid #EAEAEA;;
+}
+
+.footerTextText{
+  align-self: center;
+  padding: 6px;
+  background-color: #fff;
+  margin-top: -15px;
+  color: #3D3D3D;
+  font-family: "CeraProRegular", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.formFooter{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.footerBtn{
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  color: #727272;
+  text-align: center;
+  font-family: "CeraProMedium", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 0;
 }
