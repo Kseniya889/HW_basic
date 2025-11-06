@@ -55,7 +55,7 @@
     flex-direction: column;
 }
 
-.header{
+.main_header{
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -172,3 +172,96 @@ h1.title::after {
     bottom: 30%;
     right: 29%;
 }
+
+.float_categories{
+ display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 46px;
+}
+
+
+.left_menu{
+background-color: #FBFBFB;
+padding: 14px 18px;
+gap: 50px;
+} 
+
+
+h4{
+color: #3D3D3D;
+font-family: "CeraProBold", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; 
+margin-bottom: 7px;
+}
+
+.active_text{
+color: #46A358;
+font-family: "CeraProBold", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+}
+
+
+
+
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 171px 0 12px;
+    margin-bottom: 363px;
+    
+} 
+
+
+
+.list-category{
+color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+
+
+.img_sale{
+width: 310px;
+position: absolute;
+left: 8%;
+}
+
+/* 
+.right-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+ } 
+
+ */
+
+
+/* .category-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}  */
+
+
+
+
+/* 
+.tabs{
+    display: flex;
+    justify-content: flex-start;
+} */ 
