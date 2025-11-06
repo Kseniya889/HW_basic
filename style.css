@@ -106,6 +106,7 @@ main.main{
     justify-content: center;
     align-items: flex-start;
     gap: 7px;
+    width: 49%;
 }
 
 .text{
@@ -141,7 +142,7 @@ h1.title::after {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
-}
+    }
 
 .btn_shopnow{
     color: #FFF;
@@ -157,9 +158,17 @@ h1.title::after {
 }
 
 .vase{
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    width: 40%;
 }
 
+.big_vase{
+    position: relative;
+}
+
+
+.small_vase{
+    position:absolute;
+    bottom: 30%;
+    right: 29%;
+}
