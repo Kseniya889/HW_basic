@@ -97,6 +97,7 @@ main.main{
     display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 46px;
 }
 
 .maintext{
@@ -175,19 +176,33 @@ h1.title::after {
 
 .float_categories{
  display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-margin-top: 46px;
+ justify-content: space-between;
+/* align-items: flex-start; */
+gap: 50px;
 }
 
-
 .left_menu{
+display: flex;
+flex-direction: column;
 background-color: #FBFBFB;
 padding: 14px 18px;
-gap: 50px;
+justify-content: space-between;
+align-items: flex-start;
 } 
 
+.categories{
+padding: 0 171px 0 12px;
+margin-bottom: 363px;  
+}
+
+.list-category{
+color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
 
 h4{
 color: #3D3D3D;
@@ -208,60 +223,140 @@ font-weight: 700;
 line-height: 40px; 
 }
 
+.img_sale{
+width: 310px;
+/* position: absolute;
+left: 8%; */
+}
 
-
-
-
-.categories{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 171px 0 12px;
-    margin-bottom: 363px;
-    
+.right-menu{
+    flex: 1;
 } 
 
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 38px;
+}
 
+.tabs ul{
+display: flex;
+align-items: start;
+gap: 40px;
+}
 
-.list-category{
+.tabs-item{
+ color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+padding-bottom: 7px;
+border-bottom: 2px solid transparent;
+}
+
+.active_tabs{
+color: #46A358;
+font-family: "CeraProBold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 16px;
+border-color: #46A358;
+}
+
+.sorting{
+display: flex;
+align-items: start;
+gap: 8px;
+}
+
+.sort{
 color: #3D3D3D;
 font-family: "CeraProRegular", sans-serif;
 font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+}
+
+.catalog_grid{
+display: flex;
+flex-flow: row wrap;
+align-content: stretch;
+margin-top: 38px;
+gap: 70px 51px ;
+background-color: transparent; 
+}
+
+.flowers{
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+background-color: #FBFBFB;
+mix-blend-mode: multiply;
+padding: 31px 4px 19px;
+margin-bottom: 12px;
+}
+
+.product_item {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; /* Центрує по горизонталі */
+  text-align: center; /* Вирівнює текст */
+}
+
+.product-name{.
+color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 40px;
+line-height: 16px;
+margin-bottom: 6px;
 }
 
-
-.img_sale{
-width: 310px;
-position: absolute;
-left: 8%;
+.product-price{
+color: #46A358;
+font-family: "CeraProBold", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; 
 }
-
-/* 
-.right-menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center;
- } 
-
- */
-
-
-/* .category-header{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-}  */
-
 
 
 
 /* 
+.product_item{
+padding: 31px 4px 50px;
+background-color: #FBFBFB;
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 .tabs{
     display: flex;
+
     justify-content: flex-start;
-} */ 
+}*/
+/* 
+.sorting{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+    
+}  */
