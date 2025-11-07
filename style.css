@@ -38,146 +38,142 @@
         url('.//fonts/CeraPro-Light.woff') format('woff')
 }
 
-
 *{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-    font-family: sans-serif;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+border: none;
+box-sizing: border-box;
+font-family: sans-serif;
 }
 
 .container{
-    padding: 30px 120px 52px;
-    display: flex;
-    flex-direction: column;
+padding: 30px 120px 52px;
+display: flex;
+flex-direction: column;
 }
 
 .main_header{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    border-bottom: 1px solid  rgba(70, 163, 88, 0.50);
-    margin-bottom: 12px;
+display: flex;
+justify-content: space-between;
+align-items: start;
+border-bottom: 1px solid  rgba(70, 163, 88, 0.50);
+margin-bottom: 12px;
 }
 
 .list{
-    display: flex;
-    gap: 50px;
+display: flex;
+gap: 50px;
 }
 
 .list-item{
-    padding-bottom: 25px;
-    border-bottom: 3px solid transparent;
-    font-family: "CeraProRegular", sans-serif;  
+padding-bottom: 25px;
+border-bottom: 3px solid transparent;
+font-family: "CeraProRegular", sans-serif;  
 }
 
 .active{
-    border-color: #46A358;
-    font-weight: 700;
-    font-family: "CeraProBold", sans-serif;
+border-color: #46A358;
+font-weight: 700;
+font-family: "CeraProBold", sans-serif;
 
 }
 
 .btn{
-    border-radius: 6px;
-    background-color: #46A358; 
-    color: #fff;
-    padding: 7px 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+border-radius: 6px;
+background-color: #46A358; 
+color: #fff;
+padding: 7px 17px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
 }
 
 main.main{
-    background-color: #F5F5F580;
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 46px;
+background-color: #F5F5F580;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 46px;
 }
 
 .maintext{
-    padding: 70px 40px 85px;
-    display: flex;   
-    flex-direction: column;             
-    justify-content: center;
-    align-items: flex-start;
-    gap: 7px;
-    width: 49%;
+padding: 70px 40px 85px;
+display: flex;   
+flex-direction: column;             
+justify-content: center;
+align-items: flex-start;
+gap: 7px;
+width: 49%;
 }
 
 .text{
-    text-transform: uppercase;
-    color: #3D3D3D;
-    font-family: "CeraProMedium", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    color: #3D3D3D;
+text-transform: uppercase;
+color: #3D3D3D;
+font-family: "CeraProMedium", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+color: #3D3D3D;
 }
 
 h1.title{
-    color: #3D3D3D;
-    font-family: "CeraProBlack", sans-serif;
-    font-size: 70px;
-    font-weight: 900;
-    line-height: 70px;
-    text-transform: uppercase; 
+color: #3D3D3D;
+font-family: "CeraProBlack", sans-serif;
+font-size: 70px;
+font-weight: 900;
+line-height: 70px;
+text-transform: uppercase; 
 }
 
 h1.title::after {
-    content: " Planet";
-    color: #46A358;
+content: " Planet";
+color: #46A358;
 }
 
 .lowtext{
-    color: #727272;
-    font-family: "CeraProRegular", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    }
+color: #727272;
+font-family: "CeraProRegular", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; 
+}
 
 .btn_shopnow{
-    color: #FFF;
-    font-family: "CeraProBold", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px; 
-    text-transform: uppercase;
-    border-radius: 6px;
-    background-color: #46A358;
-    padding: 9px 26px;
-    margin-top: 37px;
+color: #FFF;
+font-family: "CeraProBold", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px; 
+text-transform: uppercase;
+border-radius: 6px;
+background-color: #46A358;
+padding: 9px 26px;
+margin-top: 37px;
 }
 
 .vase{
-    justify-content: flex-end;
-    width: 40%;
+justify-content: flex-end;
+width: 40%;
 }
 
 .big_vase{
-    position: relative;
+position: relative;
 }
 
-
 .small_vase{
-    position:absolute;
-    bottom: 30%;
-    right: 29%;
+position:absolute;
+bottom: 30%;
+right: 29%;
 }
 
 .float_categories{
- display: flex;
- justify-content: space-between;
-/* align-items: flex-start; */
+display: flex;
+justify-content: space-between;
 gap: 50px;
 }
 
@@ -188,18 +184,18 @@ background-color: #FBFBFB;
 padding: 14px 18px;
 justify-content: space-between;
 align-items: flex-start;
+height: 100%;
 } 
 
 .categories{
-padding: 0 171px 0 12px;
-margin-bottom: 363px;  
+padding: 0 12px;
+margin-bottom: 377px;  
 }
 
 .list-category{
 color: #3D3D3D;
 font-family: "CeraProRegular", sans-serif;
 font-size: 15px;
-font-style: normal;
 font-weight: 400;
 line-height: 40px;
 }
@@ -208,7 +204,6 @@ h4{
 color: #3D3D3D;
 font-family: "CeraProBold", sans-serif;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
 line-height: 16px; 
 margin-bottom: 7px;
@@ -218,26 +213,23 @@ margin-bottom: 7px;
 color: #46A358;
 font-family: "CeraProBold", sans-serif;
 font-size: 15px;
-font-style: normal;
 font-weight: 700;
 line-height: 40px; 
 }
 
 .img_sale{
 width: 310px;
-/* position: absolute;
-left: 8%; */
 }
 
 .right-menu{
-    flex: 1;
+flex: 1;
 } 
 
 .category-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 38px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin-bottom: 38px;
 }
 
 .tabs ul{
@@ -289,7 +281,6 @@ background-color: transparent;
 }
 
 .flowers{
-/* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
 background-color: #FBFBFB;
 mix-blend-mode: multiply;
 padding: 31px 4px 19px;
@@ -297,17 +288,16 @@ margin-bottom: 12px;
 }
 
 .product_item {
-  display: flex;
-  flex-direction: column; 
-  align-items: flex-start; /* Центрує по горизонталі */
-  text-align: center; /* Вирівнює текст */
+display: flex;
+flex-direction: column; 
+align-items: flex-start; 
+text-align: center; 
 }
 
 .product-name{.
 color: #3D3D3D;
 font-family: "CeraProRegular", sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 16px;
 margin-bottom: 6px;
@@ -322,41 +312,36 @@ font-weight: 700;
 line-height: 16px; 
 }
 
+.pagination{
+ margin-top: 90px;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ gap: 10px;
+ margin-bottom: 82;
+}
 
-
-/* 
-.product_item{
-padding: 31px 4px 50px;
-background-color: #FBFBFB;
-
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.tabs{
-    display: flex;
-
-    justify-content: flex-start;
-}*/
-/* 
-.sorting{
+.page-nav{
+padding: 10px 13px;
+color: #3D3D3D;
+font-family: "CeraProLight", sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 16px;
+background-color: transparent;
+border-radius: 4px;
+border: 1px solid #E5E5E5;
 display: flex;
 justify-content: center;
-align-items: flex-start;
-    
-}  */
+align-items: center;
+}
+
+.active_page{
+color: #FFF;
+font-family: "CeraProBold", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+border-radius: 4px;
+background-color: #46A358;
+}
