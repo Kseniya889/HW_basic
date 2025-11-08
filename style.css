@@ -117,7 +117,6 @@ font-size: 14px;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 1.4px;
-text-transform: uppercase;
 color: #3D3D3D;
 }
 
@@ -159,22 +158,24 @@ margin-top: 37px;
 .vase{
 justify-content: flex-end;
 width: 40%;
-}
-
-.big_vase{
 position: relative;
 }
 
+/* .big_vase{
+/* position: relative;
+} */
+
 .small_vase{
 position:absolute;
-bottom: 30%;
-right: 29%;
+bottom: 6%;
+right: 61%;
 }
 
 .float_categories{
 display: flex;
 justify-content: space-between;
 gap: 50px;
+margin-bottom: 82px;
 }
 
 .left_menu{
@@ -318,7 +319,7 @@ line-height: 16px;
  align-items: center;
  justify-content: flex-end;
  gap: 10px;
- margin-bottom: 82;
+ 
 }
 
 .page-nav{
@@ -345,3 +346,87 @@ line-height: 16px;
 border-radius: 4px;
 background-color: #46A358;
 }
+
+
+
+
+
+
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.popular-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 28px;
+    margin-bottom: 138px;
+}
+
+
+
+.plants-card{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+background: #FBFBFB;
+} 
+
+.plants{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 9px;
+padding: 37px 30px 0 0;
+/* position: relative;
+left: 5px; */
+
+
+}
+
+h3.plant{
+ color: #3D3D3D;
+text-align: right;
+font-family: "CeraProBlack", sans-serif;
+font-size: 18px;
+font-weight: 900;
+line-height: 24px; 
+text-transform: uppercase;   
+
+}
+
+p.details{
+color: #727272;
+text-align: right;
+font-family: "CeraProRegular", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;  
+}
+
+.btn_find_more{
+color: #FFF;
+font-family: "CeraProMedium", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px; 
+border-radius: 6px;
+background-color: #46A358;
+gap: 2px;
+padding: 11px 28px;
+margin-top: 16px;
+}
+
+.pop_plants{
+
+margin-top: -50px;
+padding: 0px 0 10px 0px; 
+}
+
