@@ -290,6 +290,10 @@ gap: 70px 51px ;
 background-color: transparent; 
 }
 
+.two-tone{
+background-color: transparent; 
+}
+
 .flowers{
 background-color: #FBFBFB;
 mix-blend-mode: multiply;
@@ -381,7 +385,7 @@ flex-direction: column;
 justify-content: flex-end;
 align-items: flex-end;
 gap: 9px;
-padding: 37px 30px 0 0;
+padding: 37px 30px 37px 0;
 }
 
 h3.plant{
@@ -427,18 +431,15 @@ flex-direction: column;
 }
 
 .blog-header{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-bottom: 35px;
-gap: 15px;
+text-align: center;
+margin-bottom: 17px;
 }
 
 .blog-section{
 display: flex;
 justify-content: space-around;
 gap: 66px;
+margin-top: 20px;
 }
 
 .blog-item{
