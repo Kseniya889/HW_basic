@@ -67,24 +67,20 @@ display: flex;
 gap: 50px;
 }
 
-
 .list-item{
 padding-bottom: 25px;
 border-bottom: 3px solid transparent;
 font-family: "CeraProRegular", sans-serif;  
 position: relative;
-
+gap: 2px;
 }
-
 
 .sublist-item{
 position: absolute;
-left: -63%;
+left: 0;
 top: 100%;
-margin-bottom: 37px;
-min-width: 188px;
+display: none;
 }
-
 
 .sublist-element > a{
 color: #3D3D3D;
@@ -94,11 +90,56 @@ font-weight: 400;
 line-height: normal; 
 display: flex;
 gap: 88px;
-padding: 7px 17px;
+padding: 7px 14px;
 align-items: center;
 background-color: #EDF6EE;
 }
 
+.sublist-element>a:hover{
+background-color:#1A712A;
+color: #fff;
+}
+
+.sublist-element{
+position: relative;
+}
+
+.sub-sublist-item{
+position: absolute;
+left: 100%;
+top: 0%;
+display: inline-block;
+width: 100%;
+display: none;
+}
+
+.list-item:hover>.sublist-item{
+display: block;
+} 
+
+.sublist-element:hover > .sub-sublist-item {
+  display: block;
+}
+
+.sub-sublist-element>a{
+color: #3D3D3D;
+font-family: "Encode Sans Expanded";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+display: flex;
+padding: 7px 14px;
+}
+
+.sub-sublist-element{
+align-items: center;
+background-color: #EDF6EE;
+}
+
+.sub-sublist-element>a:hover{
+background-color: #1A712A;
+color: #fff;
+} 
 
 .active{
 border-color: #46A358;
@@ -408,7 +449,7 @@ margin-bottom: 138px;
 display: flex;
 justify-content: flex-end;
 align-items: center;
-background: #FBFBFB;
+background-color: #FBFBFB;
 } 
 
 .plants{
@@ -478,7 +519,7 @@ margin-top: 20px;
 display: flex; 
 flex-direction: column;
 align-items: flex-start;
-background: #FBFBFB;
+background-color: #FBFBFB;
 gap: 4px;
 }
 
