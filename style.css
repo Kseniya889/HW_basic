@@ -626,7 +626,62 @@ line-height: 16px;
 text-decoration: line-through;
 }
 
+.footer{
+margin-top: 91px;
+}
 
 
+/* 
+.service{
+    display: flex;
+    flex-direction: column;
+} */
 
 
+.text_srvc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+padding: 9px;
+}
+
+
+.ftr_title{
+color: #3D3D3D;
+font-family: "CeraProBold", sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+}
+
+.ftr_descr{
+color: #727272;
+font-family: "CeraProRegular", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;   
+}
+
+
+.icons{
+width: 77px;
+height: 95.473px;
+background-image: url(./images/background/1.png),
+                url(./images/background/2.png),
+                url(./images/background/3.png);
+
+background-repeat: no-repeat, no-repeat, no-repeat;
+background-position: left center, center center, right center;
+background-size:contain, contain, contain;
+margin-bottom: 6px;
+
+
+} 
+/* 
+.divider{
+    border-right: 1px solid rgba(70, 163, 88, 0.10); 
+
+} */
