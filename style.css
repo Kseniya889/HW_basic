@@ -75,6 +75,13 @@
   gap: 2px;
 }
 
+.list-item:hover{
+  border-color: #46A358;
+  font-weight: 700;
+  font-family: "CeraProBold", sans-serif;
+}
+
+
 .sublist-item{
   position: absolute;
   left: 0;
@@ -141,11 +148,7 @@
   color: #fff;
 } 
 
-.active{
-  border-color: #46A358;
-  font-weight: 700;
-  font-family: "CeraProBold", sans-serif;
-}
+
 
 .btn{
   border-radius: 6px;
@@ -248,7 +251,6 @@ right: 61%;
 
 .float_categories{
   display: flex;
-  justify-content: space-between;
   gap: 50px;
   margin-bottom: 82px;
 }
@@ -256,22 +258,25 @@ right: 61%;
 .left_menu{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
   height: 100%;
 } 
 
 .float_section{
+  display: flex;
+  flex-direction: column;
   background-color: #FBFBFB;
-  padding: 14px 175px 0 18px;
+  padding: 14px 18px;
 }
 
 .categories{
   padding: 7px 12px;
-  margin-bottom: 363px;  
+  margin-bottom: 36px; 
 }
 
 .list-category{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #3D3D3D;
   font-family: "CeraProRegular", sans-serif;
   font-size: 15px;
@@ -279,21 +284,143 @@ right: 61%;
   line-height: 40px;
 }
 
-h4{
+.categories_title{
   color: #3D3D3D;
   font-family: "CeraProBold", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 16px; 
+  margin-bottom: 7px;
 }
 
-.active_text{
+.price-slider .line-range{
+height: 4px;
+  flex-grow: 1; 
+ background: #46A358;
+
+  transition: width 0.3s ease;
+  
+  
+}
+
+.price-slider .line-range:last-child {
+  margin-right: 20px;}
+
+.price-slider{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.list-category:hover{
   color: #46A358;
   font-family: "CeraProBold", sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 40px; 
 }
+
+.line-range-extra{
+/* background: #46A358; */
+background-color: rgba(70, 163, 88, 0.2); 
+border-radius: 1px;
+height: 4px;
+flex-grow: 1;
+
+}
+
+.price-value{
+color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+}
+
+.price-value::after {
+  content: " $39 - $1230";
+  color: #46A358;
+font-family: "CeraProBold", sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 16px;
+}
+
+.btn_filter{
+border-radius: 6px;
+background: #46A358;
+color: #FFF;
+font-family: "CeraProBold", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+padding: 8px 25px;
+}
+
+.range-info{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16px;
+margin-top: 21px;
+margin-bottom: 46px;
+
+}
+
+
+.size-name{
+color: #3D3D3D;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; 
+}
+
+.size-count{
+color: #3D3D3D;
+text-align: right;
+font-family: "CeraProRegular", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+
+.size-item{
+ display: flex;
+ justify-content: space-between; 
+ /* padding: 7px 12px; */
+}
+
+.size_main{
+  padding: 7px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img_sale{
   width: 310px;
@@ -323,7 +450,7 @@ h4{
   border-bottom: 2px solid transparent;
 }
 
-.active_tabs{
+.tabs-item:hover{
   color: #46A358;
   font-family: "CeraProBold", sans-serif;
   font-size: 15px;
