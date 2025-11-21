@@ -159,7 +159,17 @@
   justify-content: center;
   align-items: center;
   gap: 4px;
+  cursor: pointer;
+  transition: .1s ease-in;
+  transition-property: all 0.1s ease;
 }
+
+.btn:hover{
+background-color:#3cdf5d ;
+transform: scale(1.1);
+
+}
+
 
 main.main{
   background-color: #F5F5F580;
@@ -223,7 +233,17 @@ h1.title::after {
   background-color: #46A358;
   padding: 9px 26px;
   margin-top: 37px;
+  cursor: pointer;
+  transition: 1s;
 }
+
+.btn_shopnow:hover{
+background-color:#3cdf5d;
+
+}
+
+
+
 
 /* .vase{
 width: 40%;
