@@ -51,7 +51,7 @@
 }
 
 .greenString{
-  background: #46A358;
+  background-color: #46A358;
   height: 10px;
 }
 
@@ -72,6 +72,18 @@
   justify-content: center;
   gap: 12px;
   margin-bottom: 40px;
+  color: #3D3D3D;
+  font-family: "CeraProMedium", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.login:hover, .register:hover{
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
 }
 
 .login{
@@ -89,7 +101,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 250;
-  line-height: 16px; /* 88.889% */
+  line-height: 16px; 
 }
 
 .register{
@@ -98,7 +110,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; /* 80% */
+  line-height: 16px;
 }
 
 .addText{
@@ -107,7 +119,7 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 123.077% */
+  line-height: 16px;
 }
 
 .formInputs{
@@ -153,17 +165,25 @@ div.formInput > input.formInput{
 
 .formBtn{
   border-radius: 5px;
-  background: #46A358;
+  background-color: #46A358;
   color: #FFF;
   font-family: "CeraProBold", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 16px; /* 100% */
+  line-height: 16px;
   padding: 16px 118px;
   border: none;
   margin: 25px 0 36px;
+  transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.formBtn:hover{
+  background-color: #3c8d4f;
+  box-shadow: 0 5px 10px rgba(70, 163, 88, 0.5);
+  transform: scale(1.05);
+}
+
 
 .footerText{
   display: flex;
@@ -207,10 +227,35 @@ div.formInput > input.formInput{
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  background: transparent;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 9px;
   padding: 10px 0;
+  cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+.footerBtn:hover {
+transform: scale(1.1);
+}
+
+.footerBtn:hover .svg_ftrBtn{
+animation: svg_ftrBtn 3s forwards; 
+transform: scale(1.05);
+ transform-origin: center;
+}
+
+.svg_ftrBtn{
+transition: all .4s cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+@keyframes svg_ftrBtn { 
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
