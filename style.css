@@ -328,6 +328,7 @@ right: 61%;
 
 input[type=range] {
   -webkit-appearance: none; 
+  appearance: none; 
   background: #46a35833;
   width: 80%;
   border-radius: 4px;
@@ -342,7 +343,7 @@ input[type=range] {
   background: #46A358;
   cursor: pointer;
   margin-top: -7px;
- margin-left: 30px;
+
 }
 
 .range::-webkit-slider-runnable-track {
