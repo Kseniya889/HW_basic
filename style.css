@@ -296,13 +296,54 @@ right: 61%;
 }
 
 .categories{
-  padding: 7px 12px;
+  padding: 7px 5px;
   margin-bottom: 36px; 
 }
 
-.list-category{
+.ctgr_info{
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+
+.list-category input[type="checkbox"] {
+display: none;
+}
+
+.custom-checkbox .material-symbols-outlined{
+  display: none;
+  font-size: 17px;
+}
+
+.custom-checkbox{
+display: inline-block;
+width: 17px;       
+  height: 17px;      
+  border-radius: 4px; 
+  margin-right: 8px; 
+  vertical-align: middle;
+border: 1px solid #E5E5E5;
+position: relative;
+}
+
+
+.list-category input[type="checkbox"]:checked+.custom-checkbox .material-symbols-outlined{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+color: #FFF;
+  border-radius: 3px; 
+  background-color: #46A358;
+}
+
+.list-category label{
+  display: flex;
+  justify-content: start;
   align-items: center;
   color: #3D3D3D;
   font-family: "CeraProRegular", sans-serif;
@@ -311,7 +352,7 @@ right: 61%;
   line-height: 40px;
 }
 
-.list-category:hover{
+.list-category label:hover{
   color: #46A358;
   font-family: "CeraProBold", sans-serif;
   font-weight: 700;
@@ -398,6 +439,100 @@ input[type=range] {
   margin-bottom: 46px;
 }
 
+
+
+
+
+
+
+       
+.sz_info{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.size-item input[type="checkbox"] {
+display: none;
+}
+
+.custom-checkbox .material-symbols-outlined{
+  display: none;
+  font-size: 17px;
+}
+
+.custom-checkbox{
+display: inline-block;
+width: 17px;       
+  height: 17px;      
+  border-radius: 4px; 
+  margin-right: 8px; 
+  vertical-align: middle;
+border: 1px solid #E5E5E5;
+position: relative;
+}
+
+
+.size-item input[type="checkbox"]:checked+.custom-checkbox .material-symbols-outlined{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+color: #FFF;
+  border-radius: 3px; 
+  background-color: #46A358;
+}
+
+.size-item label{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #3D3D3D;
+  font-family: "CeraProRegular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+cursor: pointer;
+}
+
+.size-item label:hover{
+  color: #46A358;
+  font-family: "CeraProBold", sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .size-item{
   display: flex;
   justify-content: space-between; 
@@ -413,7 +548,7 @@ input[type=range] {
 
 .size-item:hover{
   font-weight: 700
-}
+} */
 
 .size_main{
   padding: 7px 12px;
