@@ -327,7 +327,7 @@ right: 61%;
 }
 
 input[type=range] {
-   -webkit-appearance: none; 
+  -webkit-appearance: none; 
   background: #46a35833;
   width: 80%;
   border-radius: 4px;
@@ -335,18 +335,20 @@ input[type=range] {
 
 .range::-webkit-slider-thumb {
   -webkit-appearance: none;
+  appearance: none;
   width: 18px;
   height: 18px;
   border-radius: 10px;
   background: #46A358;
   cursor: pointer;
   margin-top: -7px;
+ margin-left: 30px;
 }
 
 .range::-webkit-slider-runnable-track {
   height: 4px;
   border-radius: 4px;
- background: linear-gradient(to right, #46A358 60%, #46a35833 40%)
+  background: linear-gradient(to right, #46A358 0%, #46A358 60%, #46a35833 60% ,#46a35833 100%)
 }
 
 .price-value{
