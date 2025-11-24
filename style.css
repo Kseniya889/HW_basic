@@ -328,7 +328,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked~.ctgr_info{
+input[type="checkbox"]:checked+.ctgr_info{
   color: #46A358;
   font-family: "CeraProBold", sans-serif;
   font-weight: 700;
@@ -431,7 +431,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked~.sz_info{
+input[type="checkbox"]:checked+.sz_info{
   color: #46A358;
   font-family: "CeraProBold", sans-serif;
   font-weight: 700;
