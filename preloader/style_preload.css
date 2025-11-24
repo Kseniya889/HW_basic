@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.preloader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.infinity {
+  width: 100px;
+  height: auto;
+}
+
+#inf-path {
+  stroke: #46A358;
+  stroke-width: 4;
+  fill: none;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation:
+  chg_color 3s ease-in-out infinite,
+  colorize 4s linear infinite;
+}
+
+@keyframes chg_color {
+  0% {
+    stroke-dashoffset: 200;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -200;
+  }
+}
+
+@keyframes colorize {
+  0% { stroke: #46A358; }
+  50% { stroke: #93e8a4; }
+  100% { stroke: #46A358; }
+}
+
+
+
+
